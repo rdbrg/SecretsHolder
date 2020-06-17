@@ -407,7 +407,7 @@ class DataBase:
         )""")
         self.conn.commit()
 
-        self.key = b'yd0VtIZaVyeULt5a0NIwUBuQwkgyA8qqsJjKYMQsZ1I='
+        self.key = b'sw2cKTWWK-o0PpanMPrmpE3Zud-3KTgmAlao5pkxQnY='
         self.cipher = Fernet(self.key)
 
     def insert_data(self, name, login, password):
